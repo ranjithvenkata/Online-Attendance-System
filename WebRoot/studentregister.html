@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>student register</title>
+<link href="css/logincss.css" rel="stylesheet" type="text/css"/>
+<link href='//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<script src="scripts/valid.js"  type='text/javascript'>
+</script>
+</head>
+<body bgcolor="#eeeeee">
+
+<div class="main">
+                    <h1>Student Registration</h1>
+			<div class="main-info">
+				<div class="main-pos">
+					<span></span>
+				</div>
+				<div class="main-info1">
+					<h3>Register</h3>
+
+
+
+<center><table ><form name="registration" action="studentregister.jsp" method="post" onsubmit="return validate();">
+<tr><td>Id:</td><td><input type="text" name="id" required></td></tr>
+<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+<tr><td>EmailId:</td><td><input type="text" name="emailid"></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password" required></td></tr>
+<tr><td>MobileNo:</td><td><input type="text" name="mblno" required></td></tr>
+<tr><td><input type="submit" value="Register"></td>
+<td><a href="studentlogin.html"><center>Login</center></a></td></tr></form></table></center>
+</div></div></div>
+
+
+</body>
+</html>
